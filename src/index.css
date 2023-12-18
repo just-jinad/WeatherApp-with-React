@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .parent{
+   margin: auto;
+
+} */
+
+.child{
+    background-image: url('https://i.pinimg.com/564x/99/ae/a7/99aea7cbbb780c57e972b2c84d17721a.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+   border-top-right-radius: 3%;
+   border-bottom-right-radius: 5%;
+   height: 100vh;
+}
+.welcome{
+    margin: 40% 0% 0% 0%;  
+}
+
+.location{
+    backdrop-filter:blur(20px) ;
+}
+
+#secSide{
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.027), rgba(0, 255, 255, 0.219), rgb(221, 158, 158));
+    backdrop-filter: blur(10px); /* Adjust the blur value as needed */
+    
+}
+
+.sec{
+    backdrop-filter:blur(80px);
+}
+
+#display{
+    /* height: 20vh !important; */
+}
+
+.user-list {
+    background-color: #E0E0E0; 
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px #ACACAC, -10px -10px 20px #FFFFFF;
+
+}
+
+
